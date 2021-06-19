@@ -6,7 +6,6 @@ spec:
   selector:
     matchLabels:
       app: springweb
-      env: dev
   template:
     metadata:
       labels:
