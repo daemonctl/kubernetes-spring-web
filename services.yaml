@@ -4,7 +4,7 @@ metadata:
   name: springservice
 spec:
   selector:
-    app: myapp
+    app: springweb
   type: NodePort
   ports:
   - port: 8080

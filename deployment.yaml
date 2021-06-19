@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: java
+      app: springweb
       env: dev
   template:
     metadata:
       labels:
-        app: myapp
+        app: springweb
     spec:
       containers:
       - name: spring-web
@@ -21,4 +21,3 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8080
-
